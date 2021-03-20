@@ -108,10 +108,19 @@
 
 
 # FOR LOOP TO RENAME FILES
-FILES=$(ls *.txt)
-NEW="new"
-for FILE in $FILES
-    do
-        echo "Renameing $FILE to new-$FILE"
-        mv $FILE $NEW-$FILE
-    done
+# FILES=$(ls *.txt)
+# NEW="new"
+# for FILE in $FILES
+#     do
+#         echo "Renameing $FILE to new-$FILE"
+#         mv $FILE $NEW-$FILE
+#     done
+
+
+# WHILE LOOP - READ THROUGH A FILE LINE BY LINE
+# LINE=1
+# while read -r CURRENT_LINE
+#     do
+#         echo "$LINE: $CURRENT_LINE"
+#         ((LINE++))
+#     done < "./new-file01.txt"
