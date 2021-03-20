@@ -139,3 +139,8 @@
 
 # greeting "Allwell" "21"
 
+# CREATING A FOLDER AND WRITE TO A FILE
+mkdir Hello
+touch "./Hello/hello.txt"
+echo "Hello World" >> "./Hello/hello.txt"
+echo "File created successfully!"
