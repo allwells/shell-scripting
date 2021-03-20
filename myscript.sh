@@ -83,3 +83,18 @@
 # else
 #     echo "$FILE is not a file."
 # fi
+
+# CASE STATEMENTS
+# read -p "Are you 18 or over? Y/N " ANSWER
+# case "$ANSWER" in
+#     [yY] | [yY][eE][sS])
+#         echo "You are eligible to vote :)"
+#         ;;
+#     [nN] | [nN][oO])
+#         echo "Sorry you can't vote :("
+#         ;;
+#     *)
+#         echo "Please enter y/yes or n/no"
+#         ;;
+# esac
+
