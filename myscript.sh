@@ -124,3 +124,18 @@
 #         echo "$LINE: $CURRENT_LINE"
 #         ((LINE++))
 #     done < "./new-file01.txt"
+
+
+# FUNCTION
+# function greetShell() {
+#     echo "Hello Shell"
+# }
+# greetShell
+
+# FUNCTIONS WITH PARAMS
+# function greeting() {
+#     echo "Hello, I am $1 and I am $2"
+# }
+
+# greeting "Allwell" "21"
+
