@@ -98,3 +98,20 @@
 #         ;;
 # esac
 
+
+# FOR LOOP
+# NAMES="Allwell Tekena Daberechi Ella Emediong"
+# for NAME in $NAMES
+#     do
+#         echo "Hello $NAME"
+#     done
+
+
+# FOR LOOP TO RENAME FILES
+FILES=$(ls *.txt)
+NEW="new"
+for FILE in $FILES
+    do
+        echo "Renameing $FILE to new-$FILE"
+        mv $FILE $NEW-$FILE
+    done
